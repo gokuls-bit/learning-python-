@@ -1,0 +1,6 @@
+bgoi.
+It looks like you're trying to write the string st into a file named "file.txt". However, there's a small issue in your code.
+
+When you use f = open("file.txt"), it opens the file in read mode by default. To write to a file, you need to specify the write mode, usually 'w' (which will create the file if it doesn't exist, or overwrite it if it does) or 'a' (which will append to the end of the file if it exists).
+
+Here's the corrected way to write your string to a file:
