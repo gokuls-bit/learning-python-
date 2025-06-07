@@ -41,10 +41,27 @@
 #     print(e)
 # print("thankyou")
 
-a = int(input("Enter a number:"))
-b = int(input("Enter a  secondnumber:"))
+# a = int(input("Enter a number:"))
+# b = int(input("Enter a  secondnumber:"))
 
-if(b== 0):
-    raise ZeroDivisionError("Division by zero is not allowed")
-else: 
- print(f"the division a/b is {a/b}")
+# if(b== 0):
+#     raise ZeroDivisionError("Division by zero is not allowed")
+# else: 
+#  print(f"the division a/b is {a/b}")
+ # try else 
+# try:
+#     a = int(input("Enter a number: "))
+    
+# except Exception as e:
+#     print(e)
+# else:
+#     print("inside else ")
+
+# try-finally
+try:
+    a = int(input("Enter a number: "))
+    
+except Exception as e:
+    print(e)
+finally:
+    print("inside finally ")
